@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1733170723.89998 "print.tex" "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.pdf" "print" 1733170725.50592 0
+["pdflatex"] 1733173076.2324 "print.tex" "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.pdf" "print" 1733173077.8016 0
   "/etc/texmf/web2c/texmf.cnf" 1727794733.74251 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.aux" 1733170725.11893 264 d9d5181380d4f05f24ac17dac0752caa "pdflatex"
-  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.out" 1733170725.11993 105 d0b355b6971b8fbf506a4109b2a8522a "pdflatex"
+  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.aux" 1733173077.44074 937 9d878ff7cb7df01d55652af654394b84 "pdflatex"
+  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.out" 1733173077.44174 1150 2a2103e13f422af83311d35c2b298e41 "pdflatex"
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -83,7 +83,7 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1733170216 10841540 ae8ea3d3edf2add2fa11d216fecebbba ""
-  "content.tex" 1733168768.42778 388 73f6a523db261cb0bdc6b78c3d5027fa ""
+  "content.tex" 1733173062.88775 974 707720b1dc0dd8a5e64531aba65cdd22 ""
   "macros/common.tex" 1733168471.30742 820 60fafcc3aa944a5e60030581a943ef6b ""
   "macros/print.tex" 1733168471.30842 1101 87627b2ec24fef68edc71c13f43f7bab ""
   "print.tex" 1733168471.31542 1117 87f1144437cb8b775aebd99bb2d0dc79 ""
