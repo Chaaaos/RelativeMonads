@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.2)  2 DEC 2024 21:57
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.2)  11 DEC 2024 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,33 +680,58 @@ LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
 t line 30.
+ (./package-header.tex) (./newcommand-header.tex)
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 32.
+(Font)              scaled to size 12.00128pt on input line 34.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 32.
+(Font)              scaled to size 8.00085pt on input line 34.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 32.
+(Font)              scaled to size 6.00064pt on input line 34.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 32.
+(Font)              scaled to size 11.99872pt on input line 34.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 32.
+(Font)              scaled to size 7.99915pt on input line 34.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 32.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+(Font)              scaled to size 5.99936pt on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-] (./content.tex)
+] (./content.tex
 [1]
+Chapter 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 36.
+[1
+
+]
+Chapter 2.
+[2
+
+]
+Chapter 3.
+) [3
+
+]
 (/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/
 blueprint/print/print.aux)
  ***********
@@ -714,16 +739,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `print.out' has not changed.
-(rerunfilecheck)             Checksum: 2A2103E13F422AF83311D35C2B298E41;1150.
+(rerunfilecheck)             Checksum: 641C14E91FD23A76792BBBFBE5690641;1025.
  ) 
 Here is how much of TeX's memory you used:
- 16718 strings out of 474878
- 306269 string characters out of 5762516
- 1919627 words of memory out of 5000000
- 38579 multiletter control sequences out of 15000+600000
- 561635 words of font info for 66 fonts, out of 8000000 for 9000
+ 16791 strings out of 474878
+ 308419 string characters out of 5762516
+ 1925627 words of memory out of 5000000
+ 38630 multiletter control sequences out of 15000+600000
+ 563432 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,6n,114p,542b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,114p,542b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProjec
-t/RelativeMonads/blueprint/print/print.pdf (2 pages).
+t/RelativeMonads/blueprint/print/print.pdf (5 pages).

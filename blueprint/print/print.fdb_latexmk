@@ -1,13 +1,15 @@
 # Fdb version 4
-["pdflatex"] 1733173076.2324 "print.tex" "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.pdf" "print" 1733173077.8016 0
+["pdflatex"] 1733931870.88191 "print.tex" "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.pdf" "print" 1733931871.84425 0
   "/etc/texmf/web2c/texmf.cnf" 1727794733.74251 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.aux" 1733173077.44074 937 9d878ff7cb7df01d55652af654394b84 "pdflatex"
-  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.out" 1733173077.44174 1150 2a2103e13f422af83311d35c2b298e41 "pdflatex"
+  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.aux" 1733931871.63282 1156 ac3cfa0de168de64748c35741d60ec1f "pdflatex"
+  "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.out" 1733931871.63282 1025 641c14e91fd23a76792bbbfbe5690641 "pdflatex"
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -83,10 +85,12 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1733170216 10841540 ae8ea3d3edf2add2fa11d216fecebbba ""
-  "content.tex" 1733173062.88775 974 707720b1dc0dd8a5e64531aba65cdd22 ""
+  "content.tex" 1733931867.7338 4721 58e9477d8482a713ceb418339c7bcf81 ""
   "macros/common.tex" 1733168471.30742 820 60fafcc3aa944a5e60030581a943ef6b ""
   "macros/print.tex" 1733168471.30842 1101 87627b2ec24fef68edc71c13f43f7bab ""
-  "print.tex" 1733168471.31542 1117 87f1144437cb8b775aebd99bb2d0dc79 ""
+  "newcommand-header.tex" 1733930204.79123 130 6d59fd2f350752d0e7fcdf40750a127c ""
+  "package-header.tex" 1733928877.7866 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "print.tex" 1733928799.45915 1167 0a052df16c7866fdd3dc13d9d9ff0f41 ""
   (generated)
   "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.aux"
   "/home/user/Documents/Work/PhD/PhD-Year1/ForMath/ForMathProject/RelativeMonads/blueprint/print/print.log"

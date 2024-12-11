@@ -6,28 +6,156 @@
 % the current file can be a simple sequence of \input. Otherwise It
 % can start with a \section or \chapter for instance.
 
-\section{Introduction}
+
+% [TODO : ]
+
+% \href{link} to add an hyperref.
+
+% \begin{equation*} [equation] \end{equation*}
+
+%\begin{definition}[NomDefinition] \label{def:label-def} \lean{LeanDefinition \leanok [definition] \end{definition}
+
+% \begin{proposition} \label{prop:label-prop} \leanok \lean{LeanProp} \uses{def:definition-1, def:definition-2} [proposition] \end{proposition}
+
+% \begin{proof} \leanok [proof] \end{proof}
 
 
-\section{Relative Monads}
-\subsection{Basic Definitions}
-\subsection{Examples of Relative Monads}
+\begin{abstract}
+  The following document is intended as an outline for the formalisation of \emph{Relative Monads} using the proof assistant \emph{Lean 4}. Part of this formalisation consists in trying to establish relations between relative monads, monads and Kleisli triples.
+\end{abstract}
+
+% \section{Introduction}
+
+
+\chapter{Relative Monads}
+\section{Basic Definitions}
+\begin{definition}[Relative Monads]
+  %\label{def:rel-mon}
+  %\lean{LeanDefinition}
+  %\leanok
+  Given two categories $\C$ and $\D$ and a functor $J : \C \to \D$ \emph{(root)}, a relative monad on $\D$ over $\C$ consists in :
+  \begin{itemize}
+  \item A function $T : \C \to \D$ ;
+  \item A natural transformation $\eta : J \to T$ \emph{(unit)} ;
+    \item For each morphism in $\D$ of the form $f : J a \to T b$ (where $a$ and $b$ are objects of $\C$), a morphism $\lift{f} : T a \to T b$ \emph{(extension /lifting operation)} ;
+  \end{itemize}
+  satisfying the following conditions :
+  \begin{itemize}
+  \item $\forall a \in obj_{\C}, (f : J a \to T a), f = \lift{f} \circ \eta_a$
+    \emph{(left unitality)}
+  \item $\forall a \in obj_{\C}, \lift{(\eta_a)} = \mathbb{1}_{T a}$
+    \emph{(right unitality)}
+  \item $\forall a, b, c \in obj_{\C}, $\\
+    $(f : J a \to T a), (g : J b \to T c),$\\
+    $\lift{\lift{g}\circ f} = \lift{g} \circ \lift{f} $
+    
+  \end{itemize}
+
+\begin{proposition}
+  %\label{prop:func-nat}
+  %\lean{LeanProp}
+  %\leanok
+  It follows from the conditions in the definition of a relative monad that :
+  \begin{itemize}
+  \item $T$ defines a \emph{functor} ;
+    \item $\eta$ and $\lift{·}$ are \emph{natural transformations}.
+    \end{itemize}
+\end{proposition}
+  
+\end{definition}
+
+\begin{definition}[Relative Monads morphisms]
+  %\label{def:rel-mon-morphism}
+  %\lean{LeanDefinition}
+  %\leanok
+  %[TODO : definition]
+\end{definition}
+
+\begin{proposition}[Category of Relative monads]
+  %\label{prop:rel-mon-cat}
+  %\lean{LeanProp}
+  %\leanok
+  %[TODO : proposition]
+\end{proposition}
+
+\begin{proof}
+  %\leanok
+  %[TODO : proof]
+\end{proof}
+
+
+\section{Examples of Relative Monads}
+
+\subsection*{$T = J$}
+% [TODO : find a better name.]
+
+\chapter{External presentation of monads - Kleisli Triples}
+
+\begin{definition}[Kleisli Triples]
+  %\label{def:kleisli-triples}
+  %\lean{LeanDefinition}
+  %\leanok
+  %[TODO : definition]
+\end{definition}
+
+\begin{definition}[Morphisms of Kleisli triples]
+  %\label{def:kleisli-morphisms}
+  %\lean{LeanDefinition}
+  %\leanok
+  %[TODO : definition]
+\end{definition}
+
+  \begin{proposition} \label{prop:kleisli-triple-cat}
+    %\leanok
+    %\lean{LeanProp}
+    %\uses{def:definition-1, def:definition-2}
+    "Given a category $\C$, the Kleisli triples on $\C$ and the morphisms between them form a category."
+    %[TODO : Rephrase]
+  \end{proposition}
+  \begin{proof}
+  %\leanok
+  %[TODO : proof]
+\end{proof}
+
+  \begin{proposition} \label{prop:injection-kt-rm}
+    %\leanok
+    %\lean{LeanProp}
+    %\uses{def:definition-1, def:definition-2}
+    "Given a category $\C$, each Kleisli triple on $\C$ corresponds to a relative monad on $\C$ over itself." %[TODO : Rephrase...]
+      % embedding ?
+  \end{proposition}
+  \begin{proof}
+  %\leanok
+  %[TODO : proof]
+\end{proof}
 
 
 
-\section{External presentation of monads - Kleisli Triples}
-\begin{itemize}
-\item Basic definitions ;
-\item Category of Kleisli triples ;
-  \item All Kleisli triples are relative monads.
-\end{itemize}
+\chapter{Kleisli triples are equivalent to Monads}
 
+\begin{proposition}
+  %\label{prop:kt-equiv-monads}
+  %\lean{LeanProp}
+  %\leanok
+  "Given a category $\C$, Kleisli triples on $\C$ are equivalent to monads on $\C$."
+\end{proposition}
+\begin{proof}
+  %\leanok
+  %[TODO : proof]
+\end{proof}
 
+\begin{proposition}
+  %\label{prop:kt-equiv-monads}
+  %\lean{LeanProp}
+  %\leanok
+  "Given a category $\C$, each monad on $\C$ corresponds to a relative monad on $\C$ over itself."
+\end{proposition}
+\begin{proof}
+  %\leanok
+  %[TODO : proof]
+\end{proof}
 
-\section{Kleisli triples are equivalent to Monads}
-\begin{itemize}
-\item Morita equivalence (the category of Kleisli triples is equivalent to the category of monads) ;
-\item All monads are relative monads.  
-\end{itemize}
+  % Morita equivalence (the category of Kleisli triples is equivalent to the category of monads) ;
+ %All monads are relative monads. 
 
 % (Add a section about "programming language monads" ?)

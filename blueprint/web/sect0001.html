@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+  MathJax = { 
+    tex: {
+		    inlineMath: [['$','$'], ['\\(','\\)']]
+	} }
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<meta name="generator" content="plasTeX" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relative Monads</title>
+<link rel="next" href="sect0002.html" title="External presentation of monads - Kleisli Triples" />
+<link rel="prev" href="index.html" title="Relative Monads" />
+<link rel="up" href="index.html" title="Relative Monads" />
+<link rel="stylesheet" href="styles/theme-white.css" />
+<link rel="stylesheet" href="styles/extra_styles.css" />
+</head>
+
+<body>
+<header>
+<svg  id="toc-toggle" class="icon icon-list-numbered "><use xlink:href="symbol-defs.svg#icon-list-numbered"></use></svg>
+<h1 id="doc_title"><a href="index.html">Relative Monads</a></h1>
+</header>
+
+<div class="wrapper">
+<nav class="toc">
+<ul class="sub-toc-0">
+<li class=" active current">
+  <a href="sect0001.html"><span class="toc_ref"></span> <span class="toc_entry">Relative Monads</span></a>
+  <span class="expand-toc">▼</span>
+  <ul class="sub-toc-1 active">
+     <li class="">
+  <a href="sect0001.html#a0000000005"><span class="toc_ref"></span> <span class="toc_entry">Basic Definitions</span></a>
+ </li>
+<li class="">
+  <a href="sect0001.html#a0000000012"><span class="toc_ref"></span> <span class="toc_entry">Examples of Relative Monads</span></a>
+  <span class="expand-toc">▶</span>
+  <ul class="sub-toc-2">
+     <li class="">
+  <a href="sect0001.html#a0000000013"><span class="toc_ref"></span> <span class="toc_entry">\(T = J\)</span></a>
+ </li>
+
+  </ul>
+ </li>
+
+  </ul>
+ </li>
+<li class="">
+  <a href="sect0002.html"><span class="toc_ref"></span> <span class="toc_entry">External presentation of monads - Kleisli Triples</span></a>
+ </li>
+<li class="">
+  <a href="sect0003.html"><span class="toc_ref"></span> <span class="toc_entry">Kleisli triples are equivalent to Monads</span></a>
+ </li>
+</ul>
+</nav>
+
+<div class="content">
+<div class="content-wrapper">
+
+
+<div class="main-text">
+<h1 id="a0000000002"> Relative Monads</h1>
+<h1 id="a0000000005"> Basic Definitions</h1>
+<p> <div class="definition_thmwrapper " id="a0000000006">
+  <div class="definition_thmheading">
+    <span class="definition_thmcaption">
+    Definition
+    </span>
+    <span class="definition_thmlabel">1</span>
+    <span class="definition_thmtitle">Relative Monads</span>
+  </div>
+  <div class="definition_thmcontent">
+  <p> Given two categories \(\C \) and \(\D \) and a functor \(J : \C \to \D \) <em>(root)</em>, a relative monad on \(\D \) over \(\C \) consists in : </p>
+<ul class="itemize">
+  <li><p>A function \(T : \C \to \D \) ; </p>
+</li>
+  <li><p>A natural transformation \(\eta : J \to T\) <em>(unit)</em> ; </p>
+</li>
+  <li><p>For each morphism in \(\D \) of the form \(f : J a \to T b\) (where \(a\) and \(b\) are objects of \(\C \)), a morphism \(\lift {f} : T a \to T b\) <em>(extension /lifting operation)</em> ; </p>
+</li>
+</ul>
+<p> satisfying the following conditions : </p>
+<ul class="itemize">
+  <li><p>\(\forall a \in obj_{\C }, (f : J a \to T a), f = \lift {f} \circ \eta _a\) <em>(left unitality)</em> </p>
+</li>
+  <li><p>\(\forall a \in obj_{\C }, \lift {(\eta _a)} = \mathbb {1}_{T a}\) <em>(right unitality)</em> </p>
+</li>
+  <li><p>\(\forall a, b, c \in obj_{\C }, \)<br />\((f : J a \to T a), (g : J b \to T c),\)<br />\(\lift {\lift {g}\circ f} = \lift {g} \circ \lift {f} \) </p>
+</li>
+</ul>
+<p><div class="proposition_thmwrapper " id="a0000000007">
+  <div class="proposition_thmheading">
+    <span class="proposition_thmcaption">
+    Proposition
+    </span>
+    <span class="proposition_thmlabel">2</span>
+  </div>
+  <div class="proposition_thmcontent">
+  <p>It follows from the conditions in the definition of a relative monad that : </p>
+<ul class="itemize">
+  <li><p>\(T\) defines a <em>functor</em> ; </p>
+</li>
+  <li><p>\(\eta \) and \(\lift {·}\) are <em>natural transformations</em>. </p>
+</li>
+</ul>
+
+  </div>
+</div> </p>
+
+  </div>
+</div> </p>
+<p><div class="definition_thmwrapper " id="a0000000008">
+  <div class="definition_thmheading">
+    <span class="definition_thmcaption">
+    Definition
+    </span>
+    <span class="definition_thmlabel">3</span>
+    <span class="definition_thmtitle">Relative Monads morphisms</span>
+  </div>
+  <div class="definition_thmcontent">
+  
+  </div>
+</div> </p>
+<p><div class="proposition_thmwrapper " id="a0000000009">
+  <div class="proposition_thmheading">
+    <span class="proposition_thmcaption">
+    Proposition
+    </span>
+    <span class="proposition_thmlabel">4</span>
+    <span class="proposition_thmtitle">Category of Relative monads</span>
+  </div>
+  <div class="proposition_thmcontent">
+  
+  </div>
+</div> </p>
+<p><div class="proof_wrapper" id="a0000000010">
+  <div class="proof_heading">
+    <span class="proof_caption">
+    
+    </span>
+    <span class="expand-proof">▼</span>
+  </div>
+  <div class="proof_content">
+  
+  </div>
+</div> <div class="proof_wrapper" id="a0000000011">
+  <div class="proof_heading">
+    <span class="proof_caption">
+    
+    </span>
+    <span class="expand-proof">▼</span>
+  </div>
+  <div class="proof_content">
+  
+  </div>
+</div> </p>
+<h1 id="a0000000012"> Examples of Relative Monads</h1>
+<h2 id="a0000000013">\(T = J\)</h2>
+
+</div> <!--main-text -->
+</div> <!-- content-wrapper -->
+</div> <!-- content -->
+</div> <!-- wrapper -->
+
+<nav class="prev_up_next">
+  <a href="index.html" title="Relative Monads"><svg  class="icon icon-arrow-left "><use xlink:href="symbol-defs.svg#icon-arrow-left"></use></svg>
+</a>
+  <a href="index.html" title="Relative Monads"><svg  class="icon icon-arrow-up "><use xlink:href="symbol-defs.svg#icon-arrow-up"></use></svg>
+</a>
+  <a href="sect0002.html" title="External presentation of monads - Kleisli Triples"><svg  class="icon icon-arrow-right "><use xlink:href="symbol-defs.svg#icon-arrow-right"></use></svg>
+</a>
+</nav>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/plastex.js"></script>
+<script type="text/javascript" src="js/svgxuse.js"></script>
+</body>
+</html>
